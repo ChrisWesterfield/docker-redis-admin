@@ -1,4 +1,4 @@
-FROM composer/composer
+FROM composer/composer:master-php5-alpine
 
 ADD . /src/app/
 WORKDIR /src/app
